@@ -5,7 +5,7 @@ import bcrypt from 'bcryptjs';
 import User from '../DB/userSchema.js';
 import LoginCheck from '../Middlewares/LoginCheck.js';
 import AuthCheck from '../Middlewares/PostLoginAuthCheck.js';
-import updateZod from '../ZodValidators/updateZod.js';
+import updateZod from '../ZodValidators/UpdateZod.js';
 import Account from '../DB/bankSchema.js';
 
 
